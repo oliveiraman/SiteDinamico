@@ -1,0 +1,32 @@
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  blockquote {
+  	margin:20px 0;
+  	padding-left: 1.5rem;
+  	border-left: 5px solid #64b5f6;
+  }
+
+.btn, .btn-large, .btn-small, .btn:hover, .btn-large:hover, .btn-small:hover {
+    /*background-color: #2196F3 !important;*/
+}
+
+nav{
+  background-color: #64b5f6;
+  
+}
+
+.pagination li a {
+    color: #ffff;
+}
+
+.pagination li.active {
+    background-color: #64b5f6;
+}
